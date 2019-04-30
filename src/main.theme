@@ -42,6 +42,10 @@ set -g display-panes-active-colour magenta
 set -g clock-mode-colour red
 set -g clock-mode-style 24
 
+# Terminal Title
+set-option -g set-titles on
+set-option -g set-titles-string ' #h  #I:#P'
+
 # Message
 set -g message-style fg=black,bg=red
 
